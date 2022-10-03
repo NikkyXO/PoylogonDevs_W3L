@@ -19,11 +19,9 @@ contract StudentRecords {
 
     function AddStudent(string memory lName, string memory fName) public {
         // FOR AN ARRAY
-
         // studentList.push(Student(fName, lName));
 
         // FOR A STRUCT
-
         // playerCount += 1;
         // students[student_id].student_id = playerCount
         // students[student_id].fName = fName;
