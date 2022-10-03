@@ -33,5 +33,5 @@ A non payable function will execute CALLVALUE and reverts if returns a non ZERO 
 
 
  A Read Function and Write function.
- Read function that only reads from a state;
- Write function is able to modify a state
+ Read function that only reads from a state and not modify it;
+ Write function is able to modify a state by changing state variables values

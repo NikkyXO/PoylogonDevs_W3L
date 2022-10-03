@@ -1,39 +1,24 @@
 {
 	"compiler": {
-		"version": "0.7.2+commit.51b20bc0"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [
 					{
-						"internalType": "int256",
-						"name": "_ID",
-						"type": "int256"
-					},
-					{
 						"internalType": "string",
-						"name": "_fName",
+						"name": "lName",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "_lName",
+						"name": "fName",
 						"type": "string"
-					},
-					{
-						"internalType": "int256",
-						"name": "_marks",
-						"type": "int256"
 					}
 				],
-				"name": "addNewRecords",
+				"name": "AddStudent",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -41,24 +26,47 @@
 			{
 				"inputs": [
 					{
-						"internalType": "int256",
-						"name": "_bonus",
-						"type": "int256"
+						"internalType": "address",
+						"name": "ID",
+						"type": "address"
 					}
 				],
-				"name": "bonusMarks",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "stdCount",
+				"name": "getStudent",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"components": [
+							{
+								"internalType": "address",
+								"name": "ID",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "fName",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "lName",
+								"type": "string"
+							}
+						],
+						"internalType": "struct StudentRecords.Student",
 						"name": "",
-						"type": "int256"
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "playerCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -67,17 +75,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "int256",
+						"internalType": "address",
 						"name": "",
-						"type": "int256"
+						"type": "address"
 					}
 				],
-				"name": "stdRecords",
+				"name": "students",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "address",
 						"name": "ID",
-						"type": "int256"
+						"type": "address"
 					},
 					{
 						"internalType": "string",
@@ -88,11 +96,6 @@
 						"internalType": "string",
 						"name": "lName",
 						"type": "string"
-					},
-					{
-						"internalType": "int256",
-						"name": "marks",
-						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -112,9 +115,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"index.sol": "MarksManagmtSys"
+			"index.sol": "StudentRecords"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -127,10 +130,10 @@
 	},
 	"sources": {
 		"index.sol": {
-			"keccak256": "0xb455ee63c8db0b21b919fa58a0cdbc927b93dc5278fadb3d8234325e2de95345",
+			"keccak256": "0x5b7dc9e7daa385ab71c532de92d2da268e61426779b9dee06cfec3cbb39394da",
 			"urls": [
-				"bzz-raw://1351654412c3004687daa98376d9ae460f1691850499c57d684cfa8e6354b626",
-				"dweb:/ipfs/QmRi4GEXP8dNbyax61ziBYc53WFdRiVqRiTNJ13yuKaat5"
+				"bzz-raw://cc12ca692becdd745add5c298eb82fa6fb7633a073769d8dda4c4f1759c1a540",
+				"dweb:/ipfs/QmUJwhb6zBc6Y3D48qF2JPqKwp5yLWRSBpyKfh6kpXnFe7"
 			]
 		}
 	},
