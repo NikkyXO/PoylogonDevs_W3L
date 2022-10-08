@@ -28,13 +28,10 @@ contract StudentRecords {
 
     Student public newStudent;
 
-    constructor(string memory _lName, string memory _fName) {
+    function AddStudent(string memory _lName, string memory _fName) public {
         newStudent = Student(StudentCount, _fName, _lName);
-        // newStudent.fName = _fName;
-        // newStudent.lName = _lName;
-        // newStudent.student_id = StudentCount;
-        StudentCount += 1;
         studentList.push(newStudent);
+        StudentCount += 1;
     }
 
     function getStudent(address stdntaddress) public view returns (uint256) {
