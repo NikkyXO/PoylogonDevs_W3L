@@ -21,15 +21,13 @@ contract StudentRecords {
     }
 
     Student[] public studentList;
-
     mapping(address => Student) public students;
-
-    uint256 public StudentCount = 1;
+    uint256 public StudentCount = 0;
 
     Student public newStudent;
 
     function AddStudent(string memory _lName, string memory _fName) public {
-        newStudent = Student(StudentCount, _fName, _lName);
+        newStudent[msg.sender] = Student(StudentCount, _fName, _lName);
         studentList.push(newStudent);
         StudentCount += 1;
     }
