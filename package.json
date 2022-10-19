@@ -1,0 +1,25 @@
+{
+  "name": "remix",
+  "version": "1.0.0",
+  "description": "**Theory Questions:**",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikkyXO/PoylogonDevs_W3L.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikkyXO/PoylogonDevs_W3L/issues"
+  },
+  "homepage": "https://github.com/NikkyXO/PoylogonDevs_W3L#readme",
+  "devDependencies": {
+    "openzeppelin-solidity": "^4.6.0"
+  }
+}
