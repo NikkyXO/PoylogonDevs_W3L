@@ -1,6 +1,12 @@
-pragma solidity ^0.4.2;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+ 
+// ERC20 Stqndards
+// Functions: transfer, totalsupply, balanceof
+// approve, transfer from
 
-contract DappToken {
+
+contract MyNewToken {
     string  public name = "My Token";
     string  public symbol = "OOO";
     string  public standard = "DApp Token v1.0";
@@ -32,7 +38,7 @@ contract DappToken {
         balanceOf[msg.sender] -= _value;
         balanceOf[_to] += _value;
 
-        Transfer(msg.sender, _to, _value);
+        emit Transfer(msg.sender, _to, _value);
 
         return true;
     }
@@ -40,7 +46,7 @@ contract DappToken {
     function approve(address _spender, uint256 _value) public returns (bool success) {
         allowance[msg.sender][_spender] = _value;
 
-        Approval(msg.sender, _spender, _value);
+        emit Approval(msg.sender, _spender, _value);
 
         return true;
     }
@@ -54,7 +60,7 @@ contract DappToken {
 
         allowance[_from][msg.sender] -= _value;
 
-        Transfer(_from, _to, _value);
+        emit Transfer(_from, _to, _value);
 
         return true;
     }

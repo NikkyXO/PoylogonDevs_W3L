@@ -55,7 +55,7 @@ module.exports = {
    * network from the command line, e.g
    *
    * $ truffle test --network <network-name>
-   */
+   */ 
 
   networks: {
     // Useful for testing. The `development` name is special - truffle uses it by default

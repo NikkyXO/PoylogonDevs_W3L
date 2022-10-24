@@ -1,4 +1,4 @@
-pragma solidity ^0.4.17;
+pragma solidity ^0.8.17;
 
 
 contract ERC20Token {
@@ -24,4 +24,3 @@ contract ERC20Token {
     // It returns the correct value, e.g., true.
 		// https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md
 }
- 
