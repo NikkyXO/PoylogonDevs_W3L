@@ -15,18 +15,18 @@ npx hardhat run scripts/deploy.js
 Deploy your ERC20 tokens on Goerli testnet and use etherjs to interact with all the ERC20 standard functions.
 # Helpful resources
  
- - [https://hardhat.org/tutorial](HardHat.prg-Docs)
+ - [HardHat.prg-Docs](https://hardhat.org/tutorial)
  
- - [https://surajondev.com/2022/09/05/connect-dapp-to-metamask-wallet-using-ether-js/](Connect dapp to metamask wallet using etherjs)
+ - [Connect dapp to metamask wallet using etherjs](https://surajondev.com/2022/09/05/connect-dapp-to-metamask-wallet-using-ether-js/)
  
- - [https://blog.logrocket.com/building-dapp-ethers-js/](Building a DApp with Ether.Js)
+ - [Building a DApp with Ether.Js](https://blog.logrocket.com/building-dapp-ethers-js/)
  
- - [https://betterprogramming.pub/writing-and-testing-a-smart-contract-with-hardhat-and-ethersjs-2b0dbd450997](Writing and Testing a Smart Contract With Hardhat and Ethers.js)
+ - [Writing and Testing a Smart Contract With Hardhat and Ethers.js](https://betterprogramming.pub/writing-and-testing-a-smart-contract-with-hardhat-and-ethersjs-2b0dbd450997)
  
- - [https://www.web3.university/tracks/create-a-smart-contract/interact-with-your-smart-contract](Interact With Your Smart Contract)
+ - [Interact With Your Smart Contract](https://www.web3.university/tracks/create-a-smart-contract/interact-with-your-smart-contract)
  
- - [https://www.chainshot.com/article/hardhat-guides-setup](Hardhat Guides Setup)
+ - [Hardhat Guides Setup](https://www.chainshot.com/article/hardhat-guides-setup)
  
- - [https://www.web3.university/article/how-to-deploy-your-own-erc-20-token](How to Deploy Your Own ERC-20 Token)
+ - [How to Deploy Your Own ERC-20 Token](https://www.web3.university/article/how-to-deploy-your-own-erc-20-token)
 
   Deployed contract viewed at etherscan.io with token address
