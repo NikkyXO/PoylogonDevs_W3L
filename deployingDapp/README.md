@@ -16,7 +16,8 @@ Deploy your ERC20 tokens on Goerli testnet and use etherjs to interact with all 
 # Helpful resources
  
  
- 
+ - [Hard Hat tutprial](https://hardhat.org/tutorial)
+
  - [Connect dapp to metamask wallet using etherjs](https://surajondev.com/2022/09/05/connect-dapp-to-metamask-wallet-using-ether-js/)
     
 
@@ -32,4 +33,4 @@ Deploy your ERC20 tokens on Goerli testnet and use etherjs to interact with all 
 
   Deployed contract viewed at etherscan.io with token address
     
-  ![Deployed Dapp](DApp.png)
+ ![Deployed Dapp](DApp.png)
